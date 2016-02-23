@@ -1,10 +1,17 @@
-# replace the contents of this comment with your full name
+# Abigail Anderson
 
-# write a program that:
-# 1. greets the user in English
-# 2. asks the user to choose from 1 of 3 spoken languages (pick your favorite languages!) 
-# 3. displays the greeting in the chosen language
-# 4. exits
+print('Hello world!')
 
-# make sure that your code contains comments explaining your logic!
+print('Choose a language and I will greet you in that language!')
+print('1. Spanish')
+print('2. French')
+print('3. Japanese')
 
+choice = int(input()) # user inputs number 1, 2, or 3
+
+if choice == 1:
+  print('Hola!')
+elif choice == 2:
+  print('Bonjour!')
+elif choice == 3:
+  print('Konnichiwa!')   # program greets user with language choosen as input
